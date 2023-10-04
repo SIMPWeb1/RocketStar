@@ -1,0 +1,425 @@
+<!DOCTYPE html><!-- Last Published: Fri Jul 28 2023 12:00:27 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.unixgaming.org" data-wf-page="642323bfd6586d5a614b9477" data-wf-site="62eb3d221c29170368da29ce">
+<!-- Mirrored from www.unixgaming.org/sdk-for-web3-games by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 04:32:04 GMT -->
+<head><meta charset="utf-8"/><title>The ultimate web3 gaming SDK | Request a demo</title><meta content="Plug-and-play web3 integration for Unity &amp; Unreal Engine. Create NFT games that support fiat payments, SSO, zero wallet requests, &amp; mobile app stores." name="description"/><meta content="The ultimate web3 gaming SDK | Request a demo" property="og:title"/><meta content="Plug-and-play web3 integration for Unity &amp; Unreal Engine. Create NFT games that support fiat payments, SSO, zero wallet requests, &amp; mobile app stores." property="og:description"/><meta content="https://assets-global.website-files.com/62eb3d221c29170368da29ce/636a4f662b426b813381014c_web3-game-sdk.jpg" property="og:image"/><meta content="The ultimate web3 gaming SDK | Request a demo" property="twitter:title"/><meta content="Plug-and-play web3 integration for Unity &amp; Unreal Engine. Create NFT games that support fiat payments, SSO, zero wallet requests, &amp; mobile app stores." property="twitter:description"/><meta content="https://assets-global.website-files.com/62eb3d221c29170368da29ce/636a4f662b426b813381014c_web3-game-sdk.jpg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="../assets-global.website-files.com/62eb3d221c29170368da29ce/css/unix-gaming.8fc5e2d10.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f09262f91759b9b16a0034_Favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f09266caeb352b4af6aaaf_Webclip.png" rel="apple-touch-icon"/><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK5DZ5N7TG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZK5DZ5N7TG');
+</script>
+
+<style>
+/*width*/
+::-webkit-scrollbar {
+width:0.5em;
+}
+/*track*/
+::-webkit-scrollbar-track {
+background:rgb(13, 13, 13);
+border-width:0vw;
+border-style:solid;
+border-color:rgb(13, 13, 13);
+border-radius:0vw;
+}
+/*thumb*/
+::-webkit-scrollbar-thumb {
+background:rgb(67, 67, 67);
+border-color:rgb(51, 51, 51);
+border-radius:50vw;
+}
+</style></head><body class="body"><div class="page-wrapper"><div class="vw-responsiv w-embed"></div><div class="global-styles w-embed"><style>
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+a{
+text-decoration:none;
+color: inherit;}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines, .post-summary {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.text-style-1lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.stroke-text {
+-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+}
+
+.gg_marquee_track {
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 200s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100%); }
+}
+
+
+.gg_marquee_track-reverse{
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee2 200s linear infinite;
+}
+
+@keyframes marquee2 {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0%); }
+}
+
+
+.partner_marquee_track {
+  white-space: nowrap;
+  will-change: transform;
+  animation: partnerlogo 30s linear infinite;
+}
+
+@keyframes partnerlogo {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+.partner_marquee_track__reverse {
+  white-space: nowrap;
+  will-change: transform;
+  animation: partnerlogoreverse 30s linear infinite;
+}
+
+@keyframes partnerlogoreverse {
+  from { transform: translateX(0); }
+  to { transform: translateX(100%); }
+}
+.swiper-slide-active .blog-card {
+-webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.subscribe-holder {
+    
+    background:linear-gradient(180deg, #8E00B7 0%, #CE0069 100%) 0% 0% no-repeat;
+    animation: 6s linear 0s infinite normal none running bFRRB;
+}
+
+.aspect-ratio-box {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */}
+  
+  .ratio-data{
+   position: absolute;
+   top: 0;}
+   
+   
+   .aspect {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
+
+.aspect-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect-6x4 {
+  padding-bottom: 66.66%;
+}
+.aspect-11x5 {
+  padding-bottom: 45.8%;
+}
+.aspect-11x5 {
+  padding-bottom: 45.8%;
+}
+  .aspect-13x4 {
+  padding-bottom:35.7%;
+}
+   
+   .recentpost-cms-wrapper .recentpost-cms-item:first-child,
+   .recentpost-cms-wrapper .recentpost-cms-item:nth-child(2){
+max-width:49%;}
+
+
+.socialshare-link{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 100%;}
+.blog-body.w-richtext a {
+color:#47DEFF;
+}
+
+
+
+</style></div><div class="nav-component"><div class="container_main container-large"><div class="nav_wrapper"><a href="index.html" class="brand-logo w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/63db73f48fe06a0334bb44f3_Unix Gaming Logo (1).svg" loading="lazy" alt="" class="nav-logo"/></a><div class="nav-menu"><div data-hover="true" data-delay="0" class="nav-link w-dropdown"><div class="nav-drop-down-toggle w-dropdown-toggle"><div>products</div><div class="default-drop-down-icon w-icon-dropdown-toggle"></div></div><nav class="unix-dropdown w-dropdown-list"><div class="unix-top"><div id="w-node-a7ae705e-679b-76c7-59a6-d7c89baeba20-5afdb2bd" class="unix-nav-item"><a href="https://owned.gg/" target="_blank" class="nav-dropdown-title no-padding-left w-inline-block"><div class="dropdown-title-arrow"><div>owned</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div><p>Accelerate your growth &amp; market your game to gamers</p></a></div><div id="w-node-_7cad1dc2-192d-1b6e-76eb-e4dceef2061d-5afdb2bd" class="unix-nav-item"><a href="sdk-for-web3-games.html" aria-current="page" class="nav-dropdown-title right-margin w-inline-block w--current"><div class="dropdown-title-arrow"><div>web3 sdk</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div><p>End-to-end web3 toolkit for any game</p></a></div><div id="w-node-_7b218ddc-cd9c-c285-5daa-dfe4f69bfaf6-5afdb2bd" class="unix-nav-item"><a href="https://final-round.io/" target="_blank" class="nav-dropdown-title w-inline-block"><div class="dropdown-title-arrow"><div>Final Round Launchpad</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div><p>Multi-chain launchpad for Web3 games.</p></a></div><div id="w-node-af6cce65-6116-fb72-3fc2-6d3e15ee7ffc-5afdb2bd" class="drop-down-line-divider"></div><div id="w-node-_96c88e6b-9129-aef6-33ac-579fb1d477db-5afdb2bd" class="unix-nav-item"><a href="https://www.unixlabs.org/" target="_blank" class="nav-dropdown-title no-padding-left w-inline-block"><div class="dropdown-title-arrow"><div>unix labs</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div><p>develop anything in blockchain<br/></p></a></div><div id="w-node-_5c92c24b-a944-2c63-744c-8c7d593b4f5a-5afdb2bd" class="unix-nav-item"><a href="web3-gaming-studio.html" target="_blank" class="nav-dropdown-title right-margin w-inline-block"><div class="dropdown-title-arrow"><div>1 MHZ Studios</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div><p>Full stack studio building in metaverses.</p></a></div><a href="#" class="unix-nav-item w-inline-block"><div id="w-node-_3d0ac0bc-02d7-0346-81ff-659fb7f54a0b-5afdb2bd" class="nav-dropdown-title coming-soon"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f09266caeb352b4af6aaaf_Webclip.png" loading="lazy" alt="Unix Gaming Webclip" class="dropdown-logo"/><p>more coming soon...</p></div></a></div></nav></div><div data-hover="true" data-delay="0" class="nav-link w-dropdown"><div class="nav-drop-down-toggle w-dropdown-toggle"><div>buy unix token</div><div class="default-drop-down-icon w-icon-dropdown-toggle"></div></div><nav class="unix-dropdown products w-dropdown-list"><div class="unix-top"><div id="w-node-_0fced10d-4ff1-20f7-3eed-e05fda3f0922-5afdb2bd" class="unix-nav-item right-border"><a href="https://app.uniswap.org/#/swap?inputCurrency=0xddd6a0ecc3c6f6c102e5ea3d8af7b801d1a77ac8&amp;outputCurrency=ETH&amp;chain=mainnet" target="_blank" class="nav-dropdown-title product w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0c08f9af99562c725e2d7_uniswap.svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>uniswap</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div><div id="w-node-_0fced10d-4ff1-20f7-3eed-e05fda3f0929-5afdb2bd" class="unix-nav-item"><a href="https://www.mexc.com/exchange/UNIX_USDT" target="_blank" class="nav-dropdown-title product reverse w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0c08fd05b796c7c1947de_mexc.svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>mexc</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div><div id="w-node-_0fced10d-4ff1-20f7-3eed-e05fda3f0930-5afdb2bd" class="drop-down-line-divider"></div><div id="w-node-_0fced10d-4ff1-20f7-3eed-e05fda3f0931-5afdb2bd" class="unix-nav-item right-border"><div class="nav-dropdown-title coming-soon backup"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f09266caeb352b4af6aaaf_Webclip.png" loading="lazy" alt="Unix Gaming Webclip" class="dropdown-logo"/><p class="paragraph">more coming soon...</p></div><a href="#" class="nav-dropdown-title product hidden w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0c08f2f2108137f3e3e4f_bittrex.svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>bittrex</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div><div id="w-node-_0fced10d-4ff1-20f7-3eed-e05fda3f0938-5afdb2bd" class="unix-nav-item"></div></div></nav></div><div data-hover="true" data-delay="0" class="nav-link w-dropdown"><div class="nav-drop-down-toggle w-dropdown-toggle"><div>community</div><div class="default-drop-down-icon w-icon-dropdown-toggle"></div></div><nav class="unix-dropdown products w-dropdown-list"><div class="unix-top"><div id="w-node-_771939a2-43ce-4442-e5af-f32a2ee15cf1-5afdb2bd" class="unix-nav-item right-border"><a href="http://discord.gg/gounixgaming" target="_blank" class="nav-dropdown-title product w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0b379d640659376cefbad_Youtube.svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>discord</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div><div id="w-node-_12ccf5d9-fa90-1270-b712-1c29255278aa-5afdb2bd" class="unix-nav-item"><a href="https://twitter.com/gounixgaming" target="_blank" class="nav-dropdown-title product reverse w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0b37958ad152c4422415f_Telegram.svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>twitter</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div><div id="w-node-_771939a2-43ce-4442-e5af-f32a2ee15d01-5afdb2bd" class="drop-down-line-divider"></div><div id="w-node-_358d8bca-3c46-03a8-d2cf-c625ec7645a0-5afdb2bd" class="unix-nav-item hide"><a href="https://t.me/unix_token" target="_blank" class="nav-dropdown-title product w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0b378d640657225cefbac_Twitter.svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>telegram</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div><div id="w-node-_69169471-376d-78b4-3d30-8f1facb92285-5afdb2bd" class="unix-nav-item right-border"><a href="https://www.youtube.com/c/UnixPlaytoEarn" target="_blank" class="nav-dropdown-title product w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0b378e38c6dde23fce851_Discord .svg" loading="lazy" alt="" class="product-dropdown-icon"/><div class="dropdown-title-arrow"><div>youtube</div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f0ae1ed05b79f128183d5e_arrow.svg" loading="lazy" alt="" class="arrow-dropdown"/></div></a></div></div></nav></div><a href="blog.html" class="nav-link">blog</a></div><div data-is-ix2-target="1" class="hamburger-menu" data-w-id="5959a014-7586-b1ed-ca8d-27d00fe6ab67" data-animation-type="lottie" data-src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f07568eafac55baa3c14e7_lottieflow-menu-nav-06-ffffff-easey.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="2.36" data-duration="0"></div></div></div></div><div class="main-wrapper sdk"><div class="section-sdk-hero"><div class="container_main container-large"><div class="layout_component sdk-hero"><div class="layout_content"><div class="content-wrap"><div class="sdk-tag-top"><div class="sdk-tag"><div class="text-block-10">Web3 SDK</div></div><div class="sdk-tag"><div class="text-block-11">Gaming Ecosystem</div></div></div><div class="sdk-hero-title"><h1 class="h1-hero black vw">Web3 game development made easy<em>‍</em><br/><span class="text-blue-game hidden">game</span></h1><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4afdee4391f8342f43fc4_Game Box.svg" loading="lazy" alt="" class="hero-title-box hidden"/></div><div class="_2em-bottom"><p class="p-black sdk-hero-text">Kickstart your web3 game with the OWNED SDK, and develop NFT games the right way</p></div><div class="_2em-bottom"><div class="sdk-hero-dot-point-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b121a070fd6f8ecc6746_tick-green svg.svg" loading="lazy" alt="" class="green-tick-sdk"/><div class="text-block-12">Save 6-12 months dev time</div></div><div class="sdk-hero-dot-point-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b121a070fd6f8ecc6746_tick-green svg.svg" loading="lazy" alt="" class="green-tick-sdk"/><div class="sdk-dot-point-diclaimer"><div class="text-block-13">Up to $400K* saved on salaries</div><div class="text-sdk-disclaimer">*avg.$100K per developer</div></div></div><div class="sdk-hero-dot-point-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b121a070fd6f8ecc6746_tick-green svg.svg" loading="lazy" alt="" class="green-tick-sdk"/><div class="text-block-14">Minimal coding required</div></div></div><a href="contact.html" class="hero-cta sdk-square w-inline-block"><div>Get in touch   <span class="font-awesome"></span></div></a></div></div><div class="layout_content"><div><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min.png" loading="lazy" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-2000.png 2000w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 49vw, 712.390625px" alt="Overview of the OWNED SDK with a basic representation of nft marketplace revenue, active users within a web3 game, and multiple blockchains represented. Connected labels describe the SDK’s advantages for game developers, including its simple user interface, seamless interoperable wallet, Unreal Engine &amp; Unity Engine compatibility, and compliance with Epic Games Store, Apple App Store &amp; Google Play Store for Android." class="sdk-hero-img-new"/></div></div></div></div></div><div class="section-play"><div class="container_main container-large"><div class="plug-play-wrap"><div class="_1em-bottom"><h2 class="h1-black">It’s practically plug &amp; play</h2></div><p class="p-black bigger">Our game development SDK is robust, low-maintenance, and can be implemented by any developer from day one.</p><div class="plug-play-item"><div class="plug-play-left"><div class="w-layout-grid play-grid"><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65dae-614b9477" class="plug-play-logo-item right-border"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4a334f45070f7a173eaf_ELROND LOGO.svg" loading="lazy" alt="Elrond" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65db0-614b9477" class="plug-play-logo-item right-border mobile-none"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb483c9f92803a03ff6598_AVALANCHE LOGO.svg" loading="lazy" alt="Avalanche" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65db2-614b9477" class="plug-play-logo-item right-border"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb46c18a899a1dd1b33144_binance Hi-res logo.svg" loading="lazy" alt="Binance" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65db4-614b9477" class="plug-play-logo-item"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo.png" loading="lazy" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo.png 1000w" sizes="(max-width: 479px) 100vw, (max-width: 991px) 136.859375px, 153.984375px" alt="Solana" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65db6-614b9477" class="plug-play-logo-item right-border"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4af8c6d6003b18af211d_TEZOS LOGO.svg" loading="lazy" alt="Tezos" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65db8-614b9477" class="plug-play-logo-item right-border mobile-none"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4bd6f20e0c00c2e8621f_POLYGON LOGO.svg" loading="lazy" alt="Polygon" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65dba-614b9477" class="plug-play-logo-item right-border"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO.png" loading="lazy" sizes="(max-width: 479px) 100vw, 300px" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-2000.png 2000w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-2600.png 2600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-3200.png 3200w" alt="Ethereum" class="plug-play-logo"/></div><div id="w-node-_5060092a-dde2-098c-5ab3-2854acc65dbc-614b9477" class="plug-play-logo-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb525737b037827e316dca_More coming soon.svg" loading="lazy" alt="More blockchains coming soon" class="plug-play-logo smaller"/></div></div></div><div class="plug-play-right"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4f0905c808606c32f799_UNITY LOGO.svg" loading="lazy" alt="Unity Engine" class="plug-play-logo side"/><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb50785deb232c4b8784de_UNREAL LOGO.svg" loading="lazy" alt="Unreal Engine" class="plug-play-logo side"/></div></div></div></div></div><div class="section-develop"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom.png" loading="lazy" sizes="100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom.png 1920w" alt="" class="top-curve bottom"/><div class="container_main container-large"><div class="layout_component develop-grid"><div id="w-node-_2c71c4cd-f0e6-1af0-4d07-0672051313b5-614b9477" class="layout_content"><div class="content-wrap"><div class="_1em-bottom"><h2 class="h1-black">Develop next-gen play-to-own experiences</h2></div><div class="_2em-bottom"><p class="p-dark-blue">Create blockchain games that traditional gamers want to play. Unity &amp; Unreal Engine compatible. No confusing wallets. Fiat payments supported. Player registration using social or email accounts.</p></div><a href="contact.html" class="hero-cta sdk-square w-inline-block"><div class="text-getintouch-arrow">Get in touch  <span class="fa-arrow-long"></span>  </div></a></div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b4cf4bf4b8452e98bace_end-to-end-star.webp" loading="lazy" alt="" class="end-to-end-star"/></div><div id="w-node-_4d71b2d6-2314-457b-c960-5da3f3d35042-614b9477" class="layout_content"><div class="content-wrap develop-video"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 70vw, 768px" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-2000.png 2000w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template.png 2331w" alt="Scrolling description of the advantages of the OWNED SDK for game development, including fiat on-ramps, dynamic NFTs, REST APIs for Unreal Engine &amp; Unity Engine, on-chain &amp; in-game marketplaces, metadata storage on AWS &amp; IPFS, targeted NFT asset drops, and an interoperable multichain wallet." class="end-to-end-img"/><div data-poster-url="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-poster-00001.jpg" data-video-urls="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.mp4,https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="end-to-end-video-2 w-background-video w-background-video-atom"><video id="d3d5b54a-d0cb-009c-150f-514c0378c5a4-video" autoplay="" loop="" style="background-image:url(_https_/assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final%20Video-poster-00001.html)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.mp4" data-wf-ignore="true"/><source src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.webm" data-wf-ignore="true"/></video></div></div></div></div></div></div><div class="section-end-to-end"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top.png" loading="lazy" sizes="100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top.png 1920w" alt="" class="top-curve"/><div class="container_main container-large"><div class="sdk-build-title"><h2 class="h1-black">A complete end-to-end solution</h2><p class="p-dark-blue bigger">Imagine all of this without needing a single blockchain developer or lengthy development time.</p></div></div></div><div class="section-end-to-end-list"><div class="container_main container-large"><div class="sdk-build-item-content"><div class="sdk-web3-item"><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Native multi-chain wallet</strong></p></div><p class="p-dark-blue slightly-bigger">Remove the need for players to connect or manage multiple third-party wallets, and have players jump straight into your game with one-click registration.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Custom marketplace creator</strong></p></div><p class="p-dark-blue slightly-bigger">Create a custom NFT marketplace in moments. Host it on your own custom domain, and leave OWNED to manage item transactions, new mints.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Tokenomics made easy</strong></p></div><p class="p-dark-blue slightly-bigger">Manage in-game virtual currencies, mint tokens in-game or on-chain, and sell them via in-app purchases or the marketplace.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>App store compliance</strong></p></div><p class="p-dark-blue slightly-bigger">Our game SDK makes your blockchain game compliant with the Epic Game Store, Apple’s App Store &amp; Google Play for Android. Steam is next.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Dynamic NFT games</strong></p></div><p class="p-dark-blue slightly-bigger">Use our NFT plugin to assign metadata with utility and create items that can be evolvable, burnt, rented, &amp; staked in-game or on the market.</p></div></div></div><div class="sdk-web3-image"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 54vw, 784.3125px" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min.png 2797w" alt="Overview of the OWNED SDK’s interface, with the current screen displaying NFT assets on auction and marketplace customisation tool games." class="sdk-img"/></div></div></div></div><div class="section ecosysystem-bg-copy"><div class="container_main container-large"><div class="div-block-21"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 65vw, 935.671875px" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-2000.png 2000w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-2600.png 2600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min.png 3180w" alt="Diagram demonstrating the OWNED ecosystem, and how the players of one game combine with the players of other games to create a growing list of players, connected to esports, marketing and games hub." class="eco-system-img"/><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/6307790aa1d6bd742396675d_eco-system-star.png" loading="lazy" alt="" class="eco-star"/><div class="eco-system-content"><div class="_1em-bottom"><h2 class="h1-black">Instant access to a growing player base</h2></div><div class="_2em-bottom"><p class="p-dark-blue">Gain access to the registered players of every game on the OWNED platform through smart recommendation tools, hosted tournaments and targeted campaigns.</p></div><a href="contact.html" class="hero-cta sdk-square w-inline-block"><div class="text-getintouch-arrow">Get in touch  <span class="fa-arrow-long"></span>  </div></a></div></div></div></div><div class="section unix-gaming-star-bg-copy"><div class="container_main container-large"><div><div class="unix-title"><div class="unix-title-left"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/630598dca070fd5df3cabff7_UNix logo mark.webp" loading="lazy" alt="Unix gaming new logo" class="unix-logo-mark"/><div class="unix-gaming-item"><h2 class="h1-white">The unix gaming advantage</h2><p class="p-dark-blue bigger white">unix gaming gives you everything you need to develop, market, publish, and scale your web3 game!</p></div></div></div><div class="unix-grid"><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca56e-614b9477" class="unix-grid-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48e62f03a0f6642129b13_Up Arrow.svg" loading="lazy" alt="" class="unix-icon"/><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca570-614b9477" class="unix-grid-title">Market presence &amp;<br/>player acquisition</div><p class="p-dark-blue slightly-bigger white">Listing on our OWNED platform gives you immediate access to engaged, excited players looking for great games. <strong>Know-Your-Gamer</strong> (KYG) &amp; Featured billboards enables us to <strong>lead registered gamers to your game</strong>.</p></div><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca57c-614b9477" class="unix-grid-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48e61e4391ff123f2634d_People.svg" loading="lazy" alt="" class="unix-icon"/><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca57e-614b9477" class="unix-grid-title">Reduce drop-off,<br/>increase player retention</div><p class="p-dark-blue slightly-bigger white">OWNED wallet integration means players never need to connect an external wallet at any point within our ecosystem, and all NFT assets across 7+ blockchains are available with one log-in. Fewer breaks in gameplay <strong>reduces drop-offs</strong> and <strong>keeps players engaged</strong>.</p></div><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca58a-614b9477" class="unix-grid-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48e614efd72b3067b604c_Tick.svg" loading="lazy" alt="" class="unix-icon"/><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca58c-614b9477" class="unix-grid-title">Minimize the risk,<br/>maximize the gains</div><p class="p-dark-blue slightly-bigger white">With support for Unity &amp; Unreal Engine and <strong>easy storefront compliance</strong>, our SDK reduces the need for internal testing during game development. And, you get support from the team who turned a Discord server into one of the largest play-to-earn guilds in the world.</p></div></div></div></div></div><div class="section white-curved-copy"><div class="container_main container-large"><div class="grow-reach-text"><div class="_0-4em-bottom"><h2 class="h1-black">Grow your reach</h2></div><p class="p-dark-blue bigger black">First to market ad campaigns and analytical tools to reach the right players for your game.</p></div><div class="w-layout-grid grow-grid"><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca59e-614b9477" class="grow-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f49172be7e7ec5fbf0d678_airdrop.svg" loading="lazy" alt="" class="grow-icon"/><div class="grow-content"><div class="_0-4em-bottom"><h3 class="h3-dark-blue">Targeted campaigns</h3><div class="text-block-3">Create custom airdrop campaigns to target high-value players, market to our growing player base via mailer, or use in-market ad features to attract new users.</div></div><p class="p-dark-blue bigger hidden">Acquire high-value players with targeted airdrop cgi-npaigns</p></div></div><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca5a8-614b9477" class="grow-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f49172b5f151236a165571_path.svg" loading="lazy" alt="" class="grow-icon"/><div class="grow-content"><div class="_0-4em-bottom"><h3 class="h3-dark-blue">Player profiling and segmentation</h3><div class="text-block-4">Find &amp; attract the right players for your web3 game through platform analytics and maximize R.O.I.</div></div><p class="p-dark-blue bigger hidden">Access the best web3 players &amp; maximize<br/>R.O.I with well-known ad strategies</p></div></div><div id="w-node-_83f6fb2a-0212-7385-b944-567fe2fca5b4-614b9477" class="grow-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f49172270e0ce27ffa2d43_graph.svg" loading="lazy" alt="" class="grow-icon"/><div class="grow-content"><div class="_0-4em-bottom"><h3 class="h3-dark-blue">Make smarter business decisions</h3><div class="text-block-5">Use a combination of insights from our game SDK and OWNED platform to choose the right next steps to ensure your game’s success.</div></div><p class="p-dark-blue bigger hidden">Acquire high-value players with targeted airdrop cgi-npaigns</p></div></div></div></div></div><div class="section partnerbackers"><div class="container_main container-large"><div class="partner-wrap"><h2 class="h1-hero black">Partner and backers</h2><p class="p-dark-blue bigger black">To create the best, we had to work with the best in blockchain and game development.</p><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662.png" loading="lazy" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662.png 1368w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 92vw, (max-width: 991px) 94vw, (max-width: 1439px) 62vw, 894.390625px" alt="Azure PlayFab, The Sandbox, Azur Games, Fireblocks, Ramp" class="partner-img-graph"/></div></div></div><div class="section sdk-cta-bg-copy"><div class="container_main container-large"><div><div class="_2em-bottom"><div class="_1em-bottom"><h2 class="h1-hero">Ready to simplify and kickstart your web3 game?</h2></div><div class="_2em-bottom"><p class="p-dark-blue bigger white">Let us talk you through the million+ reasons OWNED is the perfect game development toolkit.</p></div></div><a href="contact.html" class="hero-cta sdk-square white w-inline-block"><div class="text-getintouch-arrow">Get in touch  <span class="fa-arrow-long"></span>  </div></a></div></div></div></div></div><div class="white-bg old"><div class="section sdk-new-hero-bg"><div class="container sdk-hero-new"><div class="sdk-hero-left"><div class="sdk-tag-top"><div class="sdk-tag"><div class="text-block-10">Web3 SDK</div></div><div class="sdk-tag"><div class="text-block-11">Gaming Ecosystem</div></div></div><div class="sdk-hero-title"><h1 class="h1-hero black vw">Web3 game development made easy<em>‍</em><br/><span class="text-blue-game hidden">game</span></h1><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4afdee4391f8342f43fc4_Game Box.svg" loading="lazy" alt="" class="hero-title-box hidden"/></div><div class="_2em-bottom"><p class="p-black sdk-hero-text">Kickstart your web3 game with the OWNED SDK, and develop NFT games the right way</p></div><div class="_2em-bottom"><div class="sdk-hero-dot-point-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b121a070fd6f8ecc6746_tick-green svg.svg" loading="lazy" alt="" class="green-tick-sdk"/><div class="text-block-12">Save 6-12 months dev time</div></div><div class="sdk-hero-dot-point-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b121a070fd6f8ecc6746_tick-green svg.svg" loading="lazy" alt="" class="green-tick-sdk"/><div class="sdk-dot-point-diclaimer"><div class="text-block-13">Up to $400K* saved on salaries</div><div class="text-sdk-disclaimer">*avg.$100K per developer</div></div></div><div class="sdk-hero-dot-point-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b121a070fd6f8ecc6746_tick-green svg.svg" loading="lazy" alt="" class="green-tick-sdk"/><div class="text-block-14">Minimal coding required</div></div></div><a href="contact.html" class="hero-cta sdk-square w-inline-block"><div>Get in touch   <span class="font-awesome"></span></div></a></div><div class="sdk-hero-img-wrapper"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min.png" loading="lazy" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630888cc5f0406248a1c181c_HD%20SDK%20img-min-p-2000.png 2000w" sizes="(max-width: 479px) 0px, 100vw" alt="Overview of the OWNED SDK with a basic representation of nft marketplace revenue, active users within a web3 game, and multiple blockchains represented. Connected labels describe the SDK’s advantages for game developers, including its simple user interface, seamless interoperable wallet, Unreal Engine &amp; Unity Engine compatibility, and compliance with Epic Games Store, Apple App Store &amp; Google Play Store for Android." class="sdk-hero-img-new"/></div></div></div><div class="section"><div class="container plug-play"><div class="_1em-bottom"><h2 class="h1-black">It’s practically plug &amp; play</h2></div><p class="p-black bigger">Our game development SDK is robust, low-maintenance, and can be implemented by any developer from day one.</p><div class="plug-play-item"><div class="plug-play-left"><div class="w-layout-grid play-grid"><div id="w-node-_1fe19d9b-25c8-446c-6051-a6d6f6266eac-614b9477" class="plug-play-logo-item right-border"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4a334f45070f7a173eaf_ELROND LOGO.svg" loading="lazy" alt="Elrond" class="plug-play-logo"/></div><div id="w-node-c4a85886-fcab-f320-d56d-a07cdd79e148-614b9477" class="plug-play-logo-item right-border mobile-none"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb483c9f92803a03ff6598_AVALANCHE LOGO.svg" loading="lazy" alt="Avalanche" class="plug-play-logo"/></div><div id="w-node-_127c33ca-57ca-9349-8ca7-fc292799f281-614b9477" class="plug-play-logo-item right-border"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb46c18a899a1dd1b33144_binance Hi-res logo.svg" loading="lazy" alt="Binance" class="plug-play-logo"/></div><div id="w-node-bbe83f06-0d2c-b83f-2154-06c5759a9a4b-614b9477" class="plug-play-logo-item"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo.png" loading="lazy" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4aa6b915f0a72475dc7d_Solana-logo.png 1000w" sizes="(max-width: 479px) 0px, 100vw" alt="Solana" class="plug-play-logo"/></div><div id="w-node-d716fc20-8815-b064-fa6c-d701120bc05b-614b9477" class="plug-play-logo-item right-border"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4af8c6d6003b18af211d_TEZOS LOGO.svg" loading="lazy" alt="Tezos" class="plug-play-logo"/></div><div id="w-node-_36554de1-5f3c-6637-6564-eacf9f3306dc-614b9477" class="plug-play-logo-item right-border mobile-none"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4bd6f20e0c00c2e8621f_POLYGON LOGO.svg" loading="lazy" alt="Polygon" class="plug-play-logo"/></div><div id="w-node-c21c8118-88eb-1dee-c530-b5f61675079e-614b9477" class="plug-play-logo-item right-border"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO.png" loading="lazy" sizes="(max-width: 479px) 0px, 100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-2000.png 2000w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-2600.png 2600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4d9da367ccfda3f7f138_ETHEREUM%20LOGO-p-3200.png 3200w" alt="Ethereum" class="plug-play-logo"/></div><div id="w-node-_70acdd6f-62c0-b5a4-87b5-14be7a71ec73-614b9477" class="plug-play-logo-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb525737b037827e316dca_More coming soon.svg" loading="lazy" alt="More blockchains coming soon" class="plug-play-logo smaller"/></div></div></div><div class="plug-play-right"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb4f0905c808606c32f799_UNITY LOGO.svg" loading="lazy" alt="Unity Engine" class="plug-play-logo side"/><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62fb50785deb232c4b8784de_UNREAL LOGO.svg" loading="lazy" alt="Unreal Engine" class="plug-play-logo side"/></div></div></div></div><div class="section end-to-end-bg"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom.png" loading="lazy" sizes="(max-width: 479px) 0px, 100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f454964a9f09dda31f_Circle%20Bottom.png 1920w" alt="" class="top-curve bottom"/><div class="container end-to-end"><div class="end-to-end-left"><div class="_1em-bottom"><h2 class="h1-black">Develop next-gen play-to-own experiences</h2></div><div class="_2em-bottom"><p class="p-dark-blue">Create blockchain games that traditional gamers want to play. Unity &amp; Unreal Engine compatible. No confusing wallets. Fiat payments supported. Player registration using social or email accounts.</p></div><a href="contact.html" class="hero-cta sdk-square w-inline-block"><div class="text-getintouch-arrow">Get in touch  <span class="fa-arrow-long"></span>  </div></a></div><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6305b4cf4bf4b8452e98bace_end-to-end-star.webp" loading="lazy" alt="" class="end-to-end-star"/><div class="end-to-end-img-wrapper-2"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template.png" loading="lazy" sizes="(max-width: 479px) 0px, 100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template-p-2000.png 2000w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6306180e7f127e5a804c44c4_SKD-Mockup-template.png 2331w" alt="Scrolling description of the advantages of the OWNED SDK for game development, including fiat on-ramps, dynamic NFTs, REST APIs for Unreal Engine &amp; Unity Engine, on-chain &amp; in-game marketplaces, metadata storage on AWS &amp; IPFS, targeted NFT asset drops, and an interoperable multichain wallet." class="end-to-end-img"/><div data-poster-url="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-poster-00001.jpg" data-video-urls="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.mp4,https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="end-to-end-video-2 w-background-video w-background-video-atom"><video id="ee7d19f3-fbeb-2d38-45c9-c3fc3a4af333-video" autoplay="" loop="" style="background-image:url(_https_/assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final%20Video-poster-00001.html)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.mp4" data-wf-ignore="true"/><source src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6311b307553f41c886dbbfc6_Final Video-transcode.webm" data-wf-ignore="true"/></video></div></div></div></div><div class="section rel"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top.png" loading="lazy" sizes="(max-width: 479px) 0px, 100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f4b3f4270e0cd52cfc0264_Circle%20Top.png 1920w" alt="" class="top-curve"/><div class="container sdk-title-v2"><div class="sdk-build-title"><h2 class="h1-black">A complete end-to-end solution</h2><p class="p-dark-blue bigger">Imagine all of this without needing a single blockchain developer or lengthy development time.</p></div></div></div><div class="section sdk-web3-bg"><div class="container build"><div class="sdk-build-item-content"><div class="sdk-web3-item"><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Native multi-chain wallet</strong></p></div><p class="p-dark-blue slightly-bigger">Remove the need for players to connect or manage multiple third-party wallets, and have players jump straight into your game with one-click registration.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Custom marketplace creator</strong></p></div><p class="p-dark-blue slightly-bigger">Create a custom NFT marketplace in moments. Host it on your own custom domain, and leave OWNED to manage item transactions, new mints.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Tokenomics made easy</strong></p></div><p class="p-dark-blue slightly-bigger">Manage in-game virtual currencies, mint tokens in-game or on-chain, and sell them via in-app purchases or the marketplace.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>App store compliance</strong></p></div><p class="p-dark-blue slightly-bigger">Our game SDK makes your blockchain game compliant with the Epic Game Store, Apple’s App Store &amp; Google Play for Android. Steam is next.</p></div></div><div class="sdk-tick-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48ad429171bc068685ebc_Tick.svg" loading="lazy" alt="" class="sdk-tick"/><div><div class="_0-2em-bottom"><p class="p-dark-blue bigger"><strong>Dynamic NFT games</strong></p></div><p class="p-dark-blue slightly-bigger">Use our NFT plugin to assign metadata with utility and create items that can be evolvable, burnt, rented, &amp; staked in-game or on the market.</p></div></div></div><div class="sdk-web3-image"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min.png" loading="lazy" sizes="(max-width: 479px) 0px, 100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/63088927ee455f4881966a09_HD%20Web3-min.png 2797w" alt="Overview of the OWNED SDK’s interface, with the current screen displaying NFT assets on auction and marketplace customisation tool games." class="sdk-img"/></div></div></div></div><div class="section ecosysystem-bg"><div class="container eco-system"><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min.png" loading="lazy" sizes="(max-width: 479px) 0px, 100vw" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-1600.png 1600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-2000.png 2000w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min-p-2600.png 2600w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/630889773257d8bf61005175_eco-system-img-min.png 3180w" alt="Diagram demonstrating the OWNED ecosystem, and how the players of one game combine with the players of other games to create a growing list of players, connected to esports, marketing and games hub." class="eco-system-img"/><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/6307790aa1d6bd742396675d_eco-system-star.png" loading="lazy" alt="" class="eco-star"/><div class="eco-system-content"><div class="_1em-bottom"><h2 class="h1-black">Instant access to a growing player base</h2></div><div class="_2em-bottom"><p class="p-dark-blue">Gain access to the registered players of every game on the OWNED platform through smart recommendation tools, hosted tournaments and targeted campaigns.</p></div><a href="contact.html" class="hero-cta sdk-square w-inline-block"><div class="text-getintouch-arrow">Get in touch  <span class="fa-arrow-long"></span>  </div></a></div></div></div><div class="section unix-gaming-star-bg"><div class="container unix-gaming"><div class="unix-title"><div class="unix-title-left"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/630598dca070fd5df3cabff7_UNix logo mark.webp" loading="lazy" alt="Unix gaming new logo" class="unix-logo-mark"/><div class="unix-gaming-item"><h2 class="h1-white">The unix gaming advantage</h2><p class="p-dark-blue bigger white">unix gaming gives you everything you need to develop, market, publish, and scale your web3 game!</p></div></div></div><div class="unix-grid"><div id="w-node-_42b2bfb2-58fe-c637-282a-df0f79018029-614b9477" class="unix-grid-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48e62f03a0f6642129b13_Up Arrow.svg" loading="lazy" alt="" class="unix-icon"/><div id="w-node-_377df7cb-55bf-03ef-ecb0-929d4731e99c-614b9477" class="unix-grid-title">Market presence &amp;<br/>player acquisition</div><p class="p-dark-blue slightly-bigger white">Listing on our OWNED platform gives you immediate access to engaged, excited players looking for great games. <strong>Know-Your-Gamer</strong> (KYG) &amp; Featured billboards enables us to <strong>lead registered gamers to your game</strong>.</p></div><div id="w-node-_9b9ecb0d-1942-4a29-2bcb-b4efb7464421-614b9477" class="unix-grid-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48e61e4391ff123f2634d_People.svg" loading="lazy" alt="" class="unix-icon"/><div id="w-node-_9b9ecb0d-1942-4a29-2bcb-b4efb7464423-614b9477" class="unix-grid-title">Reduce drop-off,<br/>increase player retention</div><p class="p-dark-blue slightly-bigger white">OWNED wallet integration means players never need to connect an external wallet at any point within our ecosystem, and all NFT assets across 7+ blockchains are available with one log-in. Fewer breaks in gameplay <strong>reduces drop-offs</strong> and <strong>keeps players engaged</strong>.</p></div><div id="w-node-_7ef0c49f-dde4-bf4b-7415-fa7f943dacd9-614b9477" class="unix-grid-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f48e614efd72b3067b604c_Tick.svg" loading="lazy" alt="" class="unix-icon"/><div id="w-node-_7ef0c49f-dde4-bf4b-7415-fa7f943dacdb-614b9477" class="unix-grid-title">Minimize the risk,<br/>maximize the gains</div><p class="p-dark-blue slightly-bigger white">With support for Unity &amp; Unreal Engine and <strong>easy storefront compliance</strong>, our SDK reduces the need for internal testing during game development. And, you get support from the team who turned a Discord server into one of the largest play-to-earn guilds in the world.</p></div></div></div></div><div class="section white-curved"><div class="container grow"><div class="grow-reach-text"><div class="_0-4em-bottom"><h2 class="h1-black">Grow your reach</h2></div><p class="p-dark-blue bigger black">First to market ad campaigns and analytical tools to reach the right players for your game.</p></div><div class="w-layout-grid grow-grid"><div id="w-node-_31657a38-5754-ed2f-cafb-f787f24846ad-614b9477" class="grow-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f49172be7e7ec5fbf0d678_airdrop.svg" loading="lazy" alt="" class="grow-icon"/><div class="grow-content"><div class="_0-4em-bottom"><h3 class="h3-dark-blue">Targeted campaigns</h3><div class="text-block-3">Create custom airdrop campaigns to target high-value players, market to our growing player base via mailer, or use in-market ad features to attract new users.</div></div><p class="p-dark-blue bigger hidden">Acquire high-value players with targeted airdrop cgi-npaigns</p></div></div><div id="w-node-_3249c4aa-a855-7330-63b7-39234e29aff8-614b9477" class="grow-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f49172b5f151236a165571_path.svg" loading="lazy" alt="" class="grow-icon"/><div class="grow-content"><div class="_0-4em-bottom"><h3 class="h3-dark-blue">Player profiling and segmentation</h3><div class="text-block-4">Find &amp; attract the right players for your web3 game through platform analytics and maximize R.O.I.</div></div><p class="p-dark-blue bigger hidden">Access the best web3 players &amp; maximize<br/>R.O.I with well-known ad strategies</p></div></div><div id="w-node-_39819d61-ee6c-7370-8e54-5d199bdacf05-614b9477" class="grow-item"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/62f49172270e0ce27ffa2d43_graph.svg" loading="lazy" alt="" class="grow-icon"/><div class="grow-content"><div class="_0-4em-bottom"><h3 class="h3-dark-blue">Make smarter business decisions</h3><div class="text-block-5">Use a combination of insights from our game SDK and OWNED platform to choose the right next steps to ensure your game’s success.</div></div><p class="p-dark-blue bigger hidden">Acquire high-value players with targeted airdrop cgi-npaigns</p></div></div></div></div></div><div class="section sdk-grey-bg"><div class="container partner-backers"><h2 class="h1-hero black">Partner and backers</h2><p class="p-dark-blue bigger black">To create the best, we had to work with the best in blockchain and game development.</p><img src="../assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662.png" loading="lazy" srcset="https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662-p-500.png 500w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662-p-800.png 800w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662-p-1080.png 1080w, https://assets-global.website-files.com/62eb3d221c29170368da29ce/6315dbc5caf12309e3aa4288_1368%20x%20662.png 1368w" sizes="(max-width: 479px) 0px, 100vw" alt="Azure PlayFab, The Sandbox, Azur Games, Fireblocks, Ramp" class="partner-img-graph"/></div></div><div class="section sdk-cta-bg"><div class="container sdk-speed"><div class="_2em-bottom"><div class="_1em-bottom"><h2 class="h1-hero">Ready to simplify and kickstart your web3 game?</h2></div><div class="_2em-bottom"><p class="p-dark-blue bigger white">Let us talk you through the million+ reasons OWNED is the perfect game development toolkit.</p></div></div><a href="contact.html" class="hero-cta sdk-square white w-inline-block"><div class="text-getintouch-arrow">Get in touch  <span class="fa-arrow-long"></span>  </div></a></div></div></div><div class="footer"><div class="container_main container-large"><div class="footer_wrapper"><div class="footer_upper-wrap"><div class="footer_logo-wrap"><a href="index.html" class="footer_logo-holder w-inline-block"><img src="https://assets-global.website-files.com/62eb3d221c29170368da29ce/63db73f48fe06a0334bb44f3_Unix Gaming Logo (1).svg" loading="lazy" alt="unix gaming" class="footer_logo"/></a></div><div class="footer_social-wrap"><a href="https://www.instagram.com/unixgamingofficial/" target="_blank" class="social_link-holder w-inline-block"><div class="social_link w-embed"><svg width="100%"  height="100%" aria-hidden="true" role="img" fill=currentColor viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></div></a><a href="https://t.me/unix_token" target="_blank" class="social_link-holder hide w-inline-block"><div class="social_link w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path fill='currentColor'  d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg></div></a><a href="https://discord.com/invite/gounixgaming" target="_blank" class="social_link-holder w-inline-block"><div class="social_link w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%"  height="100%" fill="currentColor" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg></div></a><a href="https://twitter.com/gounixgaming" target="_blank" class="social_link-holder w-inline-block"><div class="social_link w-embed"><svg aria-hidden="true" width="100%"  height="100%" role="img" fill=currentColor xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Twitter icon</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></div></a></div></div><div class="footer_lower-wrap"><div class="copyright-wrap"><div class="copyright-text">Copyright © 2022 UniX Gaming. All rights reserved.</div></div><div id="w-node-_74377120-2c43-13f7-be24-050588167edb-88167ec7" class="footer_link-wrap"><a href="blog.html" class="footer_link-holder w-inline-block"><div class="footer_link">Blog </div></a><a href="https://discord.com/invite/finalround" target="_blank" class="footer_link-holder w-inline-block"><div class="footer_link">Community</div></a><a href="https://final-round.io/" target="_blank" class="footer_link-holder w-inline-block"><div class="footer_link">Final Round</div></a><a href="contact.html" class="footer_link-holder w-inline-block"><div class="footer_link">Partner with UniX</div></a><a href="mailto:it@unixgaming.org" class="footer_link-holder w-inline-block"><div class="footer_link">Help &amp; Support</div></a></div></div></div></div></div><script src="../d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c85092.js?site=62eb3d221c29170368da29ce" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="../assets-global.website-files.com/62eb3d221c29170368da29ce/js/unix-gaming.a1d703ae8.js" type="text/javascript"></script><script type="text/javascript">
+  function convertFormToJSON(form) {
+    var array = $(form).serializeArray();
+    var json = {};
+    $.each(array, function () {
+      json[this.name] = this.value || "";
+    });
+    return json;
+  }
+
+  $('form[action="https://checker.unixgaming.org/api/email/newsletter/create"]').each(function (
+    i,
+    el
+  ) {
+    var form = $(el);
+    form.submit(function (e) {
+      e.preventDefault();
+      form = $(e.target);
+      var data = convertFormToJSON(form);
+      var action = form.attr("action");
+      $.ajax({
+        url: action,
+        method: "POST",
+        data: JSON.stringify(data),
+        contentType: "application/json",
+        success: function (v) {
+          var parent = $(form.parent());
+          // Hide the form
+          parent.children("form").css("display", "none");
+          // Display the "Done" block
+          parent.children(".w-form-done").css("display", "block");
+        },
+        error: function (v) {
+          if(v.status == 409) {
+           	$('.w-form-fail>div').text('You are already subscribed!') 
+          }
+          var parent = $(form.parent());
+          // Display the "Failed" block
+          parent.find(".w-form-fail").css("display", "block");
+        },
+      });
+    });
+  });
+</script>
+
+
+
+<!--Tippy Tooltip Scripts--> 
+<script src="https://unpkg.com/popper.js@1"></script>
+<script src="https://unpkg.com/tippy.js@4"></script>
+
+<!--Tippy Light Theme CSS--> 
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/tippy.js/2.5.4/themes/light.css"/>
+
+<!--Tippy Default Settings--> 
+<!--Override these settings with custom attributes--> 
+<script>
+tippy('.tippy', {          // Add the class tippy to your element
+	theme: 'light',          // Dark or Light
+	animation: 'scale',      // Options, shift-away, shift-toward, scale, persepctive
+	duration: 250,           // Duration of the Animation
+	arrow: true,             // Add arrow to the tooltip
+	arrowType: 'round',      // Sharp, round or empty for none
+	delay: [0, 50],          // Trigger delay in & out
+	maxWidth: 240,           // Optional, max width settings
+})
+</script></body>
+<!-- Mirrored from www.unixgaming.org/sdk-for-web3-games by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Oct 2023 04:32:16 GMT -->
+</html>
